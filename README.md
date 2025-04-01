@@ -20,44 +20,69 @@ Software of models.ipynb - Jupiter laptop, comparison of the best ML and MLP mod
 
 ### Project stages:
 -Working with data
+
 -Download dataset
+
 -Data cleaning (deletion of omissions, processing of outliers)
+
 -Analysis of the main characteristics
+
 -Visualization
+
 -Construction of histograms and distribution diagrams
+
 -Analysis of dependencies between variables
-- Standardization
+
+-Standardization
+
 -Data transformation (normalization, encoding of categorical variables)
+
 -Processing of unbalanced data
+
 -Data separation and training
+
 -Division into training and test samples
+
 -Machine learning model training
+
 -Model quality assessment
+
 -Serialization
+
 -Saving the trained model for later use
 
 ### How to install and run:
 
 1.Cloning the repository
+```sh
 git clone https://github.com/your-username/avito-analysis.git
 cd avito-analysis
+```
 
 2.Creating a virtual
+```sh
 python environment -m venv venv
 source venv/bin/activate # For Linux/macOS
 venv\Scripts\activate # For Windows
-
+```
 3.Installing
+```sh
 pip install -r dependencies requirements.txt
-
+```
 4.Launching Jupyter Notebook
+```sh
 jupyter notebook Avito.ipynb
-
+```
 ### Technologies used:
 
 Python is the main programming language
+
 Pandas – working with tabular data
+
 Matplotlib, Seaborn – data visualization
+
 Scikit-learn – ML machine learning
+
 Pickle - data serialization
+
 Tensorflow - MLP Machine Learning
