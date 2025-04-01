@@ -1,17 +1,21 @@
 # Regression-of-rental-apartmens-price
 
-This project is aimed at analyzing housing prices in the city of Rostov-on-don, Russia, predicting them and evaluating models for the possibility of working with a small amount of data. 
-In this project, a regression model has been created to predict rental prices based on data (area, area, number of rooms, number of floors, floor of an apartment for rent, etc.)
-and a summary file is provided to demonstrate the regression results of various models. Two MLP and ML approaches were used.
+This project is aimed at analyzing housing prices in the city of Rostov-on-don, Russia, predicting them and evaluating models for the possibility of working with a small amount of data. In this project, a regression model has been created to predict rental prices based on data (area, area, number of rooms, number of floors, floor of an apartment for rent, etc.) and a summary file is provided to demonstrate the regression results of various models. Two MLP and ML approaches were used.
 
 ### Project structure:
 
 Avito House.xlsx - Excel spreadsheet with unprocessed data
+
 Avito_ML.ipynb - Jupiter laptop with ML model
+
 Avito_MLP.ipynb - Jupiter laptop with MLP model
+
 Clean_Std_Data_Avito - Excel spreadsheet prepared and cleaned data format 
+
 mlp_model3.h5 - serialized model Avito_MLP.ipynb
+
 model_rf_ML.pkl - serialized model Avito_ML.ipynb
+
 Software of models.ipynb - Jupiter laptop, comparison of the best ML and MLP models 
 
 ### Project stages:
